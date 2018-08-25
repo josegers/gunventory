@@ -10,7 +10,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1>GunVentory</h1>
+        <h1>GunVentory, demo app</h1>
         {_.map(guns, (gun, id) => (
           <GunInventoryCard
             key={id}
